@@ -2,5 +2,9 @@ let data = [
   ['JavaScript', 'js'],
   ['Python', 'py'],
   ['Ruby', 'rb'],
+  ['Java', 'java'],
 ];
-console.log(data[1][0]);
+for
+  (let i = 0; i < data.length; i++) {
+  console.log(data[i][0] + 'のファイルの拡張子は' + data[i][1] + 'です');
+}

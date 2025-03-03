@@ -5,7 +5,8 @@ let book = {
   other: { keywd: 'Java SE 18', logo: 'logo.jpg' }
 };
 
-let { title, other, other: { keywd } } = book;
+let { title, other, other: { keywd } ,other:{logo}} = book;
 console.log(title);
 console.log(other);
 console.log(keywd);
+console.log(logo);
