@@ -1,4 +1,4 @@
-let rank = 'B';
+let rank = 'D';
 
 switch(rank) {
   case 'A' :

@@ -1,9 +1,12 @@
-let rank = 'B';
+let rank = 'E';
 
-switch(rank) {
+switch (rank) {
+  //下の部分はor条件になる。
   case 'A' :
   case 'B' :
-  case 'C' :
+  case 'C':
+    //rankがDだとしても、ちゃんと下のcase Dに行く。
+  default :
     console.log('合格！');
     break;
   case 'D' :
