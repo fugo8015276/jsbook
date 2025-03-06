@@ -1,4 +1,4 @@
-let i = 5;
+let i = 10;
 
 do {
   console.log(`iの値は${i}`);

@@ -16,6 +16,6 @@ let books = [
   },
 ];
 
-for({ title, publisher} of books) {
-  console.log(`${title}（${publisher} 刊行）`);
+for({ title, publisher,isbn} of books) {
+  console.log(`${title}（${publisher} 刊行）${isbn}`);
 }
