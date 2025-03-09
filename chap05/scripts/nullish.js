@@ -1,4 +1,3 @@
-let str = 'tintin-+
+let str = 'tttttt';
 
-';
 console.log(str?.length);

@@ -2,8 +2,8 @@ let str = 'にわにはにわにわとりがいる';
 let count = 0;
 let keywd = 'にわ';
 let pos = str.indexOf(keywd);
-
 while (pos !== -1) {
+  console.log(pos);
   count++;
   pos = str.indexOf(keywd, pos + keywd.length);
 }
